@@ -1,5 +1,3 @@
-BEGIN TRANSACTION;
-
 ALTER TABLE `tasks` RENAME TO `tasks_old`;
 
 CREATE TABLE `tasks` (
@@ -27,6 +25,5 @@ FROM `tasks_old` t
 LEFT JOIN `projects` p ON p.`id` = t.`project_id`;
 
 DROP TABLE `tasks_old`;
-CREATE INDEX `idx_tasks_user_id` ON `tasks` (`user_id`);
 
-COMMIT;
+CREATE INDEX `idx_tasks_user_id` ON `tasks` (`user_id`);
