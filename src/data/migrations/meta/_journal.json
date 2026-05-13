@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1775270676659,
+      "tag": "0000_blue_master_mold",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1775868179402,
+      "tag": "0001_late_silk_fever",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1776451433327,
+      "tag": "0002_sudden_mojo",
+      "breakpoints": true
+    }
+  ]
+}
